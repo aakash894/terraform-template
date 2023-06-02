@@ -4,7 +4,7 @@
 
 // Module Template
 module "ec2_instance" {
-  source  = "nvwlminfhcts001.dryicelabs.com/podtfe/ec2/aws"
+  source  = "app.terraform.io/podtfe/ec2/aws"
   version = "1.0.0"
   name = "tfe-ec2-instance"
   public_ip = true
