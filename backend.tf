@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
     organization = "podtfe"
-    hostname     = "nvwlminfhcts001.dryicelabs.com"
+    hostname     = "app.terraform.io"
     workspaces {
-      name = "sentinal-finops-ec2"
+      name = "sentinals-policy-checks"
     }
   }
   required_providers {
