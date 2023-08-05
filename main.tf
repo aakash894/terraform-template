@@ -20,6 +20,7 @@ module "ec2_instance" {
   security_groups = ["sg-0c202a5babc888c56"]
 }
 
+
 // Template Outputs
 
 // output "instance_id" {
